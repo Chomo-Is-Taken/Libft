@@ -6,7 +6,7 @@
 #    By: jopaning <jopaning@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2019/12/12 12:49:31 by jopaning          #+#    #+#              #
-#    Updated: 2020/01/07 11:59:18 by jopaning         ###   ########.fr        #
+#    Updated: 2020/01/08 19:44:22 by jopaning         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -49,6 +49,7 @@ SRC = ft_memset.c \
 	ft_iswhitespace_bonus.c \
 	ft_strnew_bonus.c \
 	ft_strncpy_bonus.c \
+	ft_lstreverse_bonus.c \
 
 BONUS =	ft_lstnew.c \
 	ft_lstadd_front.c\

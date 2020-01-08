@@ -6,7 +6,7 @@
 /*   By: jopaning <jopaning@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/12/12 12:55:20 by jopaning          #+#    #+#             */
-/*   Updated: 2020/01/07 14:42:10 by jopaning         ###   ########.fr       */
+/*   Updated: 2020/01/08 19:45:03 by jopaning         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,7 @@ void				ft_putnbr_fd(int n, int fd);
 char				*ft_strnew(size_t size);
 int					ft_iswhitespace(int c);
 char				*ft_strncpy(char *dest, const char *src, size_t n);
+void				lstreverse(t_list **alst);
 
 t_list				*ft_lstnew(void *content);
 void				ft_lstadd_front(t_list **alst, t_list *new);
